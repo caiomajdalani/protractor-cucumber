@@ -1,27 +1,31 @@
 'use strict'
+const {defineSupportCode} = require('cucumber');
 
 const Chai = require('../world.js');
 const chai = new Chai();
 
-module.exports = function () {
-	this.Given(/^I go to "(.+)"$/, function (site, callback) {
+defineSupportCode(function({Given, When, Then}) {
+
+	 Given('I go to {stringInDoubleQuotes}', (site, callback) => {
 		browser.get(site)
 			.then(callback);
 	});
 
-	this.When(/^I add "(.+)" in the task field$/, function (task) {
+	When('I add {stringInDoubleQuotes} in the task field', (task) => {
 		element(by.model('todoList.todoText')).sendKeys(task);
 	});
 
-	this.Then(/^I should see my new task in the list$/, function () {
+	When('I click the add button', (callback) => {
 		var el = element(by.css('[value="add"]'));
 		el.click();
 	});
 
-	this.And(/^I click the add button$/, function (callback) {
+	Then('I should see my new task in the list', () => {
 		var todoList = element.all(by.repeater('todo in todoList.todos'));
 		chai.expect(todoList.count()).to.eventually.equal(3);
 		chai.expect(todoList.get(2).getText()).to.eventually.equal('Do not Be Awesome')
 			.and.notify(callback);
 	});
-};
+
+
+});

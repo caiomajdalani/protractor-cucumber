@@ -2,7 +2,7 @@
   "name": "cucumberjs",
   "version": "1.0.0",
   "description": "Testando aplicação com CucumberJS + Protractor",
-  "main": "index.js",
+  "main": "protractor.conf.js",
   "scripts": {
     "updatewd": "node node_modules/protractor/bin/webdriver-manager update",
     "cucumber": "./node_modules/.bin/cucumber-js",
@@ -10,11 +10,13 @@
   },
   "author": "Caio Majdalani",
   "license": "ISC",
+  "dependencies": {
+    "protractor-cucumber-framework": "^3.1.2"
+  },
   "devDependencies": {
     "chai": "^4.1.0",
     "chai-as-promised": "^7.1.1",
     "cucumber": "^2.3.1",
-    "protractor": "^5.1.2",
-    "protractor-cucumber-framework": "^3.1.2"
+    "protractor": "^5.1.2"
   }
 }
