@@ -20,3 +20,9 @@ Feature: Uso de Calculadora Angular
             | 10      | 22      | "32"   |
             | 99      | 123     | "222"  |
             | 12      | 99      | "111"  |
+
+    Scenario: Make more than one operation
+        Given i enter in the site's URL
+        When i add 10 and 20
+            And i multiply 3 and 6
+        Then the calculator should give me the results "30" and "18"

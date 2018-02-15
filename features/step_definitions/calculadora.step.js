@@ -30,5 +30,25 @@ Then('the calculator should give me the result {string}', (result, callback) => 
     home.result.getText()
         .then( value => {
             expect(value).to.eq(result)
-    }).then(callback)
+        }).then(callback)
+});
+
+When('i multiply {int} and {int}', function (int, int2, callback) {
+    home.first.sendKeys(int)
+    home.second.sendKeys(int2)
+    home.operator.click()
+    home.selectOption('*')
+    home.goButton.click()
+        .then(callback)
+});
+
+Then('the calculator should give me the results {string} and {string}', function (result1, result2, callback) {
+    home.checkMultipleResults(result1).getText()
+        .then( value => {
+            expect(value).to.include(result1)
+        });
+    home.checkMultipleResults(result2).getText()
+        .then( value => {
+            expect(value).to.include(result2)
+        }).then(callback)
 });

@@ -15,7 +15,6 @@ Too run tests in terminal, type:
 
 ```
   npm test
-
 ```
 
 ## Reports

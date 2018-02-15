@@ -25,7 +25,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 475000000
+              "duration": 322000000
             }
           },
           {
@@ -38,7 +38,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53000000
+              "duration": 51000000
             }
           }
         ]
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222000000
+              "duration": 105000000
             }
           },
           {
@@ -74,7 +74,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 183000000
+              "duration": 175000000
             }
           },
           {
@@ -87,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1885000000
+              "duration": 1872000000
             }
           }
         ]
@@ -110,7 +110,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 186000000
+              "duration": 184000000
             }
           },
           {
@@ -123,7 +123,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 155000000
+              "duration": 157000000
             }
           },
           {
@@ -136,7 +136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1879000000
+              "duration": 1871000000
             }
           }
         ]
@@ -172,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 153000000
+              "duration": 162000000
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1879000000
+              "duration": 1870000000
             }
           }
         ]
@@ -208,7 +208,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 187000000
+              "duration": 188000000
             }
           },
           {
@@ -221,7 +221,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 153000000
+              "duration": 160000000
             }
           },
           {
@@ -234,7 +234,69 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1875000000
+              "duration": 1921000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "uso-de-calculadora-angular;make-more-than-one-operation",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Make more than one operation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "i enter in the site's URL",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "i add 10 and 20",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "i multiply 3 and 6",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "the calculator should give me the results \"30\" and \"18\"",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1915000000
             }
           }
         ]
