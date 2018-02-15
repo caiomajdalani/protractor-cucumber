@@ -20,9 +20,9 @@ Too run tests in terminal, type:
 
 ## Reports
 
-1. To see reports:
+1. To see reports, open the .hmtl file on firefox on path:
 
 ```
-Open the .hmtl file on firefox on path: ./e2e/tests_result/cucumber_report.html
+./e2e/tests_result/cucumber_report.html
 
 ```
