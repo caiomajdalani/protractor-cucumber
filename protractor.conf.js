@@ -29,5 +29,6 @@ exports.config = {
             launchReport: true
         };
         reporter.generate(options);
-    }
+    },
+    baseUrl: 'http://juliemr.github.io/'
 };

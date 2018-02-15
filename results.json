@@ -1,0 +1,244 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Uso de Calculadora Angular",
+    "line": 2,
+    "id": "uso-de-calculadora-angular",
+    "tags": [],
+    "uri": "features\\calculadora.feature",
+    "elements": [
+      {
+        "id": "uso-de-calculadora-angular;go-to-calculator's-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Go to calculator's home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "i enter in the site's URL",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "i should see the home page title",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "uso-de-calculadora-angular;add-1-+-2",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add 1 + 2",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "i enter in the site's URL",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "i add 1 and 2",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the calculator should give me the result \"3\"",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1885000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "uso-de-calculadora-angular;add-x-+-y",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Add x + y",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "i enter in the site's URL",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "i add 10 and 22",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the calculator should give me the result \"32\"",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1879000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "uso-de-calculadora-angular;add-x-+-y",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Add x + y",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "i enter in the site's URL",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "i add 99 and 123",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the calculator should give me the result \"222\"",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1879000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "uso-de-calculadora-angular;add-x-+-y",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Add x + y",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "i enter in the site's URL",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "i add 12 and 99",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the calculator should give me the result \"111\"",
+            "match": {
+              "location": "features\\step_definitions\\calculadora.step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1875000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
