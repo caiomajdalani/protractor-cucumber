@@ -54,8 +54,8 @@ exports.config = {
                 ]
             },
             jsonOutputPath: '.tmp/report/',
-            // openReportInBrowser: true,
-            // removeOriginalJsonReportFile: true
+            openReportInBrowser: true,
+            removeOriginalJsonReportFile: true
         }
     }]
 };
